@@ -6,6 +6,16 @@
 #define WIDTH 20
 #define HEIGHT 10
 
+// Simple ESP-like console game
+// Player and enemy positions
+// Player starts at the center of the grid
+// Enemy is at a fixed position
+// Player can move with WASD keys
+// ESP shows player and enemy positions and distance
+// C11 standard
+// This code is a simple console game that demonstrates basic ESP functionality
+
+
 int playerX = WIDTH / 2;
 int playerY = HEIGHT / 2;
 int enemyX = 5;
